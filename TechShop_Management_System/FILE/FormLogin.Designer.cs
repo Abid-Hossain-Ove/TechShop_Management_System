@@ -146,15 +146,15 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 13);
+            this.label4.Size = new System.Drawing.Size(223, 13);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Computer Shop Management System";
+            this.label4.Text = "Computer Shop Management System | Log In ";
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pictureBox4.Image = global::TechShop_Management_System.Properties.Resources.pngtree_monochrome_computer_icon_for_web_design_and_infographics_vector_png_image_40639554;
-            this.pictureBox4.Location = new System.Drawing.Point(482, 12);
+            this.pictureBox4.Location = new System.Drawing.Point(472, 9);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(73, 66);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -165,7 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(567, 560);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label4);
