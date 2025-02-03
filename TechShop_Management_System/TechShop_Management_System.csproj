@@ -70,6 +70,12 @@
     <Compile Include="FILE\final\FormOrder.Designer.cs">
       <DependentUpon>FormOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="FILE\final\FormProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FILE\final\FormProduct.Designer.cs">
+      <DependentUpon>FormProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="FILE\forget pass page 2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FILE\final\FormOrder.resx">
       <DependentUpon>FormOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FILE\final\FormProduct.resx">
+      <DependentUpon>FormProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FILE\forget pass page 2.resx">
       <DependentUpon>forget pass page 2.cs</DependentUpon>
