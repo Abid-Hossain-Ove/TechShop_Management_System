@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TechShop_Management_System
+namespace TechShop_Management_System.FILE.TECH_SHOP
 {
-    public partial class Form1 : Form
+    public partial class FormLogIn : Form
     {
-        public Form1()
+        public FormLogIn()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void FormLogIn_Load(object sender, EventArgs e)
         {
 
         }
