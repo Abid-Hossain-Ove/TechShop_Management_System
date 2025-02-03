@@ -79,31 +79,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\png-transparent-desktop-computers-personal-computer-computer-icons-computer-monitors-computer-rectangle-computer-computer-monitor-accessory.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pngtree-cartoon-office-computer-and-keyboard-image_1416722.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-hewlett-packard-laptop-startech-com-technology-com-5b3e944f23b997.9452132515308278551463.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pngtree-monochrome-computer-icon-for-web-design-and-infographics-vector-png-image_40639554.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\png-transparent-computer-icons-finance-drawing-hide-logo-smiley-глаз-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pngtree-view-icon-png-image_5196447.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\FINAL\" />
+    <Folder Include="Resources\" />
     <Folder Include="TECH SHOP FINAL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
