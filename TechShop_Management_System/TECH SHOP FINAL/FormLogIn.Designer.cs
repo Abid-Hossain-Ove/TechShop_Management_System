@@ -88,6 +88,7 @@ namespace TechShop_Management_System.TECH_SHOP_FINAL
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(514, 365);
             this.pnlLogin.TabIndex = 0;
+            this.pnlLogin.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlLogin_Paint);
             // 
             // label4
             // 
@@ -100,6 +101,7 @@ namespace TechShop_Management_System.TECH_SHOP_FINAL
             this.label4.Size = new System.Drawing.Size(81, 26);
             this.label4.TabIndex = 6;
             this.label4.Text = "LOG IN";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtPassword
             // 

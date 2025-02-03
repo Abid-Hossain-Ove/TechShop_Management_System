@@ -16,5 +16,15 @@ namespace TechShop_Management_System.TECH_SHOP_FINAL
         {
             InitializeComponent();
         }
+
+        private void pnlLogin_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
