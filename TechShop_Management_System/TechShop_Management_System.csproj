@@ -52,53 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FILE\final\FormEmployeeDeshBoard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FILE\final\FormEmployeeDeshBoard.Designer.cs">
-      <DependentUpon>FormEmployeeDeshBoard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\final\FormLogIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FILE\final\FormLogIn.Designer.cs">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\final\FormOrder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FILE\final\FormOrder.Designer.cs">
-      <DependentUpon>FormOrder.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\final\FormProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FILE\final\FormProduct.Designer.cs">
-      <DependentUpon>FormProduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\final\FormReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FILE\final\FormReport.Designer.cs">
-      <DependentUpon>FormReport.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FILE\final\FormEmployeeDeshBoard.resx">
-      <DependentUpon>FormEmployeeDeshBoard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\final\FormLogIn.resx">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\final\FormOrder.resx">
-      <DependentUpon>FormOrder.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\final\FormProduct.resx">
-      <DependentUpon>FormProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\final\FormReport.resx">
-      <DependentUpon>FormReport.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -146,6 +101,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pngtree-view-icon-png-image_5196447.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\FINAL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
