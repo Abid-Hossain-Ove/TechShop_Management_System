@@ -58,6 +58,12 @@
     <Compile Include="FILE\Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="FILE\final\FormEmployeeDeshBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FILE\final\FormEmployeeDeshBoard.Designer.cs">
+      <DependentUpon>FormEmployeeDeshBoard.cs</DependentUpon>
+    </Compile>
     <Compile Include="FILE\final\FormLogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FILE\Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FILE\final\FormEmployeeDeshBoard.resx">
+      <DependentUpon>FormEmployeeDeshBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FILE\final\FormLogIn.resx">
       <DependentUpon>FormLogIn.cs</DependentUpon>
