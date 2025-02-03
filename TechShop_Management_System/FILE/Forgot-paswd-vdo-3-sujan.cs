@@ -23,7 +23,7 @@ namespace TechShop_Management_System.FILE
         }
 
         private void btnResetPassword_Click(object sender, EventArgs e)
-        {
+        { /*
             if(Username.Text.Trim() == string.Empty)
             {
                 MessageBox.Show("Please enter user name .", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -47,7 +47,7 @@ namespace TechShop_Management_System.FILE
                 {
                     MessageBox.Show("Username of Email is incorrect.", "Information", MessageBoxButtons.OK, MessageBoxButtons.Information);
                 }
-            }
+            } */
         }
     }
 }
