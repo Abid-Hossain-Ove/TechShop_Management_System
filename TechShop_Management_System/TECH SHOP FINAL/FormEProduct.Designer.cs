@@ -61,7 +61,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnOrder = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogOut = new System.Windows.Forms.Button();
             this.btnProduct = new System.Windows.Forms.Button();
@@ -72,7 +71,6 @@
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -406,7 +404,6 @@
             this.panel2.BackColor = System.Drawing.Color.Gray;
             this.panel2.Controls.Add(this.btnOrder);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.btnLogOut);
             this.panel2.Controls.Add(this.btnProduct);
@@ -443,16 +440,6 @@
             this.label3.Size = new System.Drawing.Size(115, 19);
             this.label3.TabIndex = 14;
             this.label3.Text = "BANGLADESH";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(87, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -527,7 +514,6 @@
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -566,7 +552,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLogOut;
         private System.Windows.Forms.Button btnProduct;
