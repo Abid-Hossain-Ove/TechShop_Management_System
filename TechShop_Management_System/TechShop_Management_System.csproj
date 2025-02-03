@@ -58,6 +58,18 @@
     <Compile Include="FILE\Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="FILE\forget pass page 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FILE\forget pass page 2.Designer.cs">
+      <DependentUpon>forget pass page 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FILE\forget pass page 3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FILE\forget pass page 3.Designer.cs">
+      <DependentUpon>forget pass page 3.cs</DependentUpon>
+    </Compile>
     <Compile Include="FILE\Forgot-paswd-vdo-3-sujan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +98,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FILE\Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FILE\forget pass page 2.resx">
+      <DependentUpon>forget pass page 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FILE\forget pass page 3.resx">
+      <DependentUpon>forget pass page 3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FILE\Forgot-paswd-vdo-3-sujan.resx">
       <DependentUpon>Forgot-paswd-vdo-3-sujan.cs</DependentUpon>
