@@ -16,5 +16,10 @@ namespace TechShop_Management_System.FILE.final
         {
             InitializeComponent();
         }
+
+        private void FormProduct_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

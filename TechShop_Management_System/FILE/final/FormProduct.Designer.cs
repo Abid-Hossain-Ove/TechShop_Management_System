@@ -560,10 +560,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(765, 452);
+            this.ClientSize = new System.Drawing.Size(770, 452);
             this.Controls.Add(this.pnlProduct);
             this.Name = "FormProduct";
             this.Text = "FormProduct";
+            this.Load += new System.EventHandler(this.FormProduct_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).EndInit();
