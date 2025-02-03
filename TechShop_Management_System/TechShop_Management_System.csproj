@@ -52,10 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FILE\Category.cs" />
-    <Compile Include="FILE\Category.Designer.cs">
-      <DependentUpon>Category.cs</DependentUpon>
-    </Compile>
     <Compile Include="FILE\final\FormEmployeeDeshBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,43 +82,8 @@
     <Compile Include="FILE\final\FormReport.Designer.cs">
       <DependentUpon>FormReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="FILE\forget pass page 2.cs" />
-    <Compile Include="FILE\forget pass page 2.Designer.cs">
-      <DependentUpon>forget pass page 2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\forget pass page 3.cs" />
-    <Compile Include="FILE\forget pass page 3.Designer.cs">
-      <DependentUpon>forget pass page 3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\Forgot-paswd-vdo-3-sujan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FILE\Forgot-paswd-vdo-3-sujan.Designer.cs">
-      <DependentUpon>Forgot-paswd-vdo-3-sujan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\Form1.cs" />
-    <Compile Include="FILE\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\FormLogin.cs" />
-    <Compile Include="FILE\FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\menu.cs" />
-    <Compile Include="FILE\menu.Designer.cs">
-      <DependentUpon>menu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FILE\TECH SHOP\FormLogIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FILE\TECH SHOP\FormLogIn.Designer.cs">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FILE\Category.resx">
-      <DependentUpon>Category.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FILE\final\FormEmployeeDeshBoard.resx">
       <DependentUpon>FormEmployeeDeshBoard.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,27 +98,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FILE\final\FormReport.resx">
       <DependentUpon>FormReport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\forget pass page 2.resx">
-      <DependentUpon>forget pass page 2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\forget pass page 3.resx">
-      <DependentUpon>forget pass page 3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\Forgot-paswd-vdo-3-sujan.resx">
-      <DependentUpon>Forgot-paswd-vdo-3-sujan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\FormLogin.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\menu.resx">
-      <DependentUpon>menu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FILE\TECH SHOP\FormLogIn.resx">
-      <DependentUpon>FormLogIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
