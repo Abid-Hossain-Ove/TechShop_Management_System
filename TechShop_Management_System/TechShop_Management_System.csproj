@@ -52,9 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FILE\Category.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FILE\Category.cs" />
     <Compile Include="FILE\Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
@@ -88,15 +86,11 @@
     <Compile Include="FILE\final\FormReport.Designer.cs">
       <DependentUpon>FormReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="FILE\forget pass page 2.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FILE\forget pass page 2.cs" />
     <Compile Include="FILE\forget pass page 2.Designer.cs">
       <DependentUpon>forget pass page 2.cs</DependentUpon>
     </Compile>
-    <Compile Include="FILE\forget pass page 3.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FILE\forget pass page 3.cs" />
     <Compile Include="FILE\forget pass page 3.Designer.cs">
       <DependentUpon>forget pass page 3.cs</DependentUpon>
     </Compile>
@@ -106,21 +100,15 @@
     <Compile Include="FILE\Forgot-paswd-vdo-3-sujan.Designer.cs">
       <DependentUpon>Forgot-paswd-vdo-3-sujan.cs</DependentUpon>
     </Compile>
-    <Compile Include="FILE\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FILE\Form1.cs" />
     <Compile Include="FILE\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FILE\FormLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FILE\FormLogin.cs" />
     <Compile Include="FILE\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FILE\menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FILE\menu.cs" />
     <Compile Include="FILE\menu.Designer.cs">
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>

@@ -195,7 +195,7 @@
             this.dgvSalesReport.Name = "dgvSalesReport";
             this.dgvSalesReport.ReadOnly = true;
             this.dgvSalesReport.RowHeadersWidth = 62;
-            this.dgvSalesReport.Size = new System.Drawing.Size(550, 274);
+            this.dgvSalesReport.Size = new System.Drawing.Size(560, 274);
             this.dgvSalesReport.TabIndex = 4;
             // 
             // OID
@@ -417,7 +417,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 442);
+            this.ClientSize = new System.Drawing.Size(771, 457);
             this.Controls.Add(this.pnlReport);
             this.Name = "FormReport";
             this.Text = "FormReport";
