@@ -50,8 +50,9 @@
             this.pnlLoginBack.Controls.Add(this.label3);
             this.pnlLoginBack.Controls.Add(this.pnlLogin);
             this.pnlLoginBack.Location = new System.Drawing.Point(0, 0);
+            this.pnlLoginBack.Margin = new System.Windows.Forms.Padding(2);
             this.pnlLoginBack.Name = "pnlLoginBack";
-            this.pnlLoginBack.Size = new System.Drawing.Size(802, 576);
+            this.pnlLoginBack.Size = new System.Drawing.Size(602, 468);
             this.pnlLoginBack.TabIndex = 1;
             // 
             // label3
@@ -61,9 +62,10 @@
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Firebrick;
-            this.label3.Location = new System.Drawing.Point(177, 24);
+            this.label3.Location = new System.Drawing.Point(133, 20);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(429, 42);
+            this.label3.Size = new System.Drawing.Size(344, 33);
             this.label3.TabIndex = 6;
             this.label3.Text = "Power Matrix - Bangladesh";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -83,9 +85,10 @@
             this.pnlLogin.Controls.Add(this.label1);
             this.pnlLogin.ForeColor = System.Drawing.Color.Transparent;
             this.pnlLogin.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pnlLogin.Location = new System.Drawing.Point(147, 114);
+            this.pnlLogin.Location = new System.Drawing.Point(110, 93);
+            this.pnlLogin.Margin = new System.Windows.Forms.Padding(2);
             this.pnlLogin.Name = "pnlLogin";
-            this.pnlLogin.Size = new System.Drawing.Size(514, 365);
+            this.pnlLogin.Size = new System.Drawing.Size(386, 297);
             this.pnlLogin.TabIndex = 0;
             // 
             // label4
@@ -94,21 +97,24 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(208, 29);
+            this.label4.Location = new System.Drawing.Point(156, 24);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 31);
+            this.label4.Size = new System.Drawing.Size(81, 26);
             this.label4.TabIndex = 6;
             this.label4.Text = "LOG IN";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.Color.DarkGray;
             this.txtPassword.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.Black;
-            this.txtPassword.Location = new System.Drawing.Point(205, 166);
+            this.txtPassword.Location = new System.Drawing.Point(154, 135);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(253, 33);
+            this.txtPassword.Size = new System.Drawing.Size(191, 28);
             this.txtPassword.TabIndex = 5;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -117,9 +123,10 @@
             this.txtUserId.BackColor = System.Drawing.Color.DarkGray;
             this.txtUserId.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserId.ForeColor = System.Drawing.Color.Black;
-            this.txtUserId.Location = new System.Drawing.Point(205, 90);
+            this.txtUserId.Location = new System.Drawing.Point(154, 73);
+            this.txtUserId.Margin = new System.Windows.Forms.Padding(2);
             this.txtUserId.Name = "txtUserId";
-            this.txtUserId.Size = new System.Drawing.Size(253, 33);
+            this.txtUserId.Size = new System.Drawing.Size(191, 28);
             this.txtUserId.TabIndex = 4;
             // 
             // btnClear
@@ -128,9 +135,10 @@
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnClear.Location = new System.Drawing.Point(330, 268);
+            this.btnClear.Location = new System.Drawing.Point(248, 218);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(128, 39);
+            this.btnClear.Size = new System.Drawing.Size(96, 32);
             this.btnClear.TabIndex = 3;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -141,9 +149,10 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnLogin.Location = new System.Drawing.Point(71, 268);
+            this.btnLogin.Location = new System.Drawing.Point(53, 218);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(128, 39);
+            this.btnLogin.Size = new System.Drawing.Size(96, 32);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Log In";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -154,9 +163,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(74, 169);
+            this.label2.Location = new System.Drawing.Point(56, 137);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 27);
+            this.label2.Size = new System.Drawing.Size(94, 22);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password:";
             // 
@@ -166,18 +176,20 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(101, 93);
+            this.label1.Location = new System.Drawing.Point(76, 76);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 27);
+            this.label1.Size = new System.Drawing.Size(74, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "User ID:";
             // 
             // FormLogIn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 578);
+            this.ClientSize = new System.Drawing.Size(602, 470);
             this.Controls.Add(this.pnlLoginBack);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormLogIn";
             this.Text = "FormLogIn";
             this.pnlLoginBack.ResumeLayout(false);
