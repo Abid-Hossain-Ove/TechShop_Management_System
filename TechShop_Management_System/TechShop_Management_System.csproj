@@ -58,6 +58,18 @@
     <Compile Include="FILE\Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="FILE\final\FormLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FILE\final\FormLogIn.Designer.cs">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FILE\final\FormOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FILE\final\FormOrder.Designer.cs">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="FILE\forget pass page 2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +116,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FILE\Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FILE\final\FormLogIn.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FILE\final\FormOrder.resx">
+      <DependentUpon>FormOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FILE\forget pass page 2.resx">
       <DependentUpon>forget pass page 2.cs</DependentUpon>
