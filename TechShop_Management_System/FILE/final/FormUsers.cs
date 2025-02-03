@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TechShop_Management_System.FILE
+namespace TechShop_Management_System.FILE.final
 {
-    public partial class Form1 : Form
+    public partial class FormUsers : Form
     {
-        public Form1()
+        public FormUsers()
         {
             InitializeComponent();
         }

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TechShop_Management_System.FILE
+namespace TechShop_Management_System.FILE.final
 {
-    public partial class forget_pass_page_3 : Form
+    public partial class FormEProduct : Form
     {
-        public forget_pass_page_3()
+        public FormEProduct()
         {
             InitializeComponent();
         }
